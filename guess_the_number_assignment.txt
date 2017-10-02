@@ -1,0 +1,18 @@
+def guess_number guess
+    number = 25
+
+    puts "You got it!" if guess == number
+    puts "Guess too High!" if guess > number
+    puts "Guess too low" if guess < number
+    # your code here
+end
+guess_number 15
+# +++++++++++++++++++++++++++++==================================================+++++++
+BEGIN{
+  puts "This is the beginning"
+
+}
+
+END{
+  puts "this is the end block"
+}
